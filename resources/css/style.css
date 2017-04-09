@@ -1,0 +1,48 @@
+header{
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.logo{
+  color: MediumAquamarine;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.logo img{
+  margin-right: 10px;
+}
+.logo span{
+  color: MediumAquamarine;
+}
+a {
+    color: #000;
+}
+nav{
+  display: inline-flex;
+}
+nav ul li {
+  display: inline-flex;
+  padding:10px;
+}
+.main{
+  display: flex;
+  border: 1px solid #000;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+
+}
